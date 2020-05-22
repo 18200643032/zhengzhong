@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe81063f-d40b-40c6-9dd9-cbf83854f247" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/base_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mxshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mxshop/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mxshop/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+            <state relative-caret-position="161">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#307#316#0" expanded="true" />
               </folding>
@@ -27,11 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/base_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="216">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/goods/apps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -57,20 +66,27 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ALLOWED_HOSTS</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Mxshop/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/apps/goods/apps.py" />
+        <option value="$PROJECT_DIR$/db/base_model.py" />
+        <option value="$PROJECT_DIR$/Mxshop/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="209" />
-    <option name="y" value="3" />
+    <option name="x" value="481" />
+    <option name="y" value="68" />
     <option name="width" value="1627" />
     <option name="height" value="900" />
   </component>
@@ -98,7 +114,20 @@
             <path>
               <item name="Mxshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mxshop" type="462c0819:PsiDirectoryNode" />
-              <item name="Mxshop" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mxshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Mxshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="Mxshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
@@ -110,6 +139,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\zhengzhong\extremevision\Mxshop\apps" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,6 +164,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Mxshop.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -158,15 +193,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590118908855</updated>
-      <workItem from="1590118911571" duration="991000" />
+      <workItem from="1590118911571" duration="5424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="991000" />
+    <option name="totallyTimeSpent" value="5424000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="209" y="3" width="1627" height="900" extended-state="0" />
+    <frame x="601" y="79" width="1627" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -180,7 +215,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32985657" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -213,20 +248,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mxshop/settings.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-          <folding>
-            <element signature="e#307#316#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="81">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/apps/goods/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/base_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mxshop/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#307#316#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
