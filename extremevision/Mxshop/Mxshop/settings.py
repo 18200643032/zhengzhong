@@ -40,8 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tinymce',#富文本类型
-    'goods',
-    'trade',
+    'goods',#商品
+    'trade',#交易
     'user_operation',
     'users'
 
