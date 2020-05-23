@@ -11,3 +11,4 @@ class BaseModel(models.Model):
     class Meta:
         """说明这是一个抽象模型类"""
         abstract = True
+
