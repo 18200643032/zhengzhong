@@ -78,7 +78,7 @@ class Goods(models.Model):
     def __str__(self):
         return self.name
 
-class TndexAd(models.Model):
+class IndexAd(models.Model):
     categort = models.ForeignKey(GoodsCategory,related_name="categort",verbose_name="商品类目",on_delete=models.CASCADE)
     goods = models.ForeignKey(Goods,related_name='goods',on_delete=models.CASCADE)
 
